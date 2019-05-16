@@ -5,7 +5,7 @@ defmodule Paginator.Mixfile do
 
   def project do
     [
-      app: :paginator,
+      app: :cursor_paginator,
       version: @version,
       elixir: "~> 1.4",
       elixirc_paths: elixirc_paths(Mix.env()),
@@ -19,13 +19,13 @@ defmodule Paginator.Mixfile do
 
       # Docs
       name: "Cursor Paginator",
-      source_url: "https://github.com/duffelhq/paginator",
-      homepage_url: "https://github.com/duffelhq/paginator",
+      source_url: "https://github.com/fcarrara/paginator",
+      homepage_url: "https://github.com/fcarrara/paginator",
       docs: [
         source_ref: "v#{@version}",
         main: "Paginator",
         canonical: "http://hexdocs.pm/paginator",
-        source_url: "https://github.com/duffelhq/paginator"
+        source_url: "https://github.com/fcarrara/paginator"
       ]
     ]
   end
@@ -59,7 +59,7 @@ defmodule Paginator.Mixfile do
     [
       maintainers: ["Steve Domin"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/duffelhq/paginator"}
+      links: %{"GitHub" => "https://github.com/fcarrara/paginator"}
     ]
   end
 end
