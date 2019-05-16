@@ -1,6 +1,8 @@
 # Changelog
 
-## v0.6.0 - 2018-11-20
+## v0.6.1 - 2019-05-16
+
+* Add support for sorting on joined columns (duffelhq#57)
 
 ### Changed
 
