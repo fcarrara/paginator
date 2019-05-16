@@ -1,7 +1,7 @@
 defmodule Paginator.Mixfile do
   use Mix.Project
 
-  @version "0.6.0"
+  @version "0.6.1"
 
   def project do
     [
@@ -18,7 +18,7 @@ defmodule Paginator.Mixfile do
       package: package(),
 
       # Docs
-      name: "Paginator",
+      name: "Cursor Paginator",
       source_url: "https://github.com/duffelhq/paginator",
       homepage_url: "https://github.com/duffelhq/paginator",
       docs: [
